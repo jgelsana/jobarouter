@@ -14,6 +14,8 @@ export default function HelpLayout() {
       </nav>
 
       <Outlet />
+      {/* this is where the content for any nested root is
+      going to be output. */}
     </div>
   );
 }
