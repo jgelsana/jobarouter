@@ -34,7 +34,6 @@ const router = createBrowserRouter(
         index
         element={<Careers />}
         loader={careersLoader}
-        // errorElement={<CareersError />}
         />
         <Route
         path=":id"
